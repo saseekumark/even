@@ -1,10 +1,11 @@
 #include<stdio.h>
 void main()
 {
-int a;
-scanf("%d",&a);
-if(a%2==0)
-printf("even");
-else
-printf("odd");
+int i,s=1,n;
+
+for(i=1;i<=n;i++)
+{
+  s=s*i;
+}
+printf("%d",s);
 }
